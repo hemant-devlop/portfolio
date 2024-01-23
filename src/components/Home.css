@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+.font{
+   font-family: 'Odibee Sans', sans-serif !important;
+   letter-spacing: 1px;
+}
+.hight{
+    height: 85vh !important;
+}
