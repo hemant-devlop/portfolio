@@ -32,7 +32,7 @@ const NavbarComponent = () => {
           <div className="offcanvas-body d-flex justify-content-end">
             <ul className="navbar-nav mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link font" aria-current="page" to="/about">
+                <Link className="nav-link font" aria-current="page" to="/">
                   ABOUT
                 </Link>
               </li>
@@ -58,7 +58,7 @@ const NavbarComponent = () => {
           </div>
         </div>
 
-        <a className="navbar-brand  order-lg-1 " href="src\assets\resume.pdf" download={true}>
+        <a className="navbar-brand  order-lg-1 " href="../assets/resume.pdf" download={true}>
         <button className="btn btn-outline-dark rounded-0 font mx-2">DOWNLOAD RESUME &nbsp;<i className="bi bi-download"></i></button>
         </a>
       </div>

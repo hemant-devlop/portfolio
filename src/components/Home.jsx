@@ -1,16 +1,19 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import "./Home.css";
 const Home = () => {
   return (
     <div className="container-md d-md-flex hight">
       <div className="order-md-2 d-flex justify-content-center align-items-center" style={{ flex: 1 }}>
         <div className="px-5 pt-5">
-        <img
-          src="src\assets\profff.png"
-          className="img-fluid rounded-circle shadow"
-          alt=""
-          style={{ maxHeight: "500px" }}
-        />
+        <LazyLoadImage
+        src="../assets/profff.png"
+        className="img-fluid rounded-circle shadow"
+        alt=""
+        placeholderSrc="../assets/profff_zitjjz.png"
+        // effectg="blur"
+        style={{ maxHeight: "500px" }}
+         />
         </div>
       </div>
       <div className="order-md-1 p-3 d-flex justify-content-center align-items-center " style={{ flex: 1 }}>
@@ -29,8 +32,8 @@ const Home = () => {
         </p>
         <hr/>
         <div>
-          <a href="" className="btn  rounded-0"><i className="bi bi-github fs-1 me-2"></i></a>
-          <a href="" className="btn  rounded-0"><i className="bi bi-linkedin fs-1"></i></a>
+          <a href="https://github.com/hemant-devlop" target="_blank" className="btn  rounded-0"><i className="bi bi-github fs-1 me-2"></i></a>
+          <a href="https://www.linkedin.com/in/hemantdevloper/" target="_blank" className="btn  rounded-0"><i className="bi bi-linkedin fs-1"></i></a>
         </div>
         </div>
       </div>
