@@ -20,7 +20,7 @@ const Home = () => {
         <div>
           <h1 className="font">About Me</h1>
         <p className="pb-3" style={{lineHeight:'24px',maxWidth:'30rem',fontSize:'18px'}}>
-          Hi, my name is <strong>Hemant Kumar</strong>. I am a 21 year old web developer
+          Hi, My name is <strong>Hemant Kumar</strong>. I am a 21 year old web developer
           residing in Haryana Mohendergarh. I am recently graduate from 
           BCA in Computer Science, I am well-versed in the latest web and mobile app development technologies.
           Graduating with honors to my name, I am eager to apply my skills in a
