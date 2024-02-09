@@ -25,7 +25,6 @@ const Skills = () => {
                     <img src="../assets/node.png" alt="" />
                 </div>
                 <div className='skill-box'>
-                    {/* <span className='fs-4'>Express JS</span> */}
                     <img src="../assets/express.png" alt="" />
                 </div>
                 <div className='skill-box'>
@@ -35,7 +34,7 @@ const Skills = () => {
                     <img src="../assets/MUI.png" alt="" />
                 </div>
                 <div className='skill-box'>
-                    <img src="../assets/github.png" alt="" style={{ height: '80px', width: '80px' }} />
+                    <img src="../assets/github.png" alt=""  />
                 </div>
                 <div className='skill-box'>
                     <img src="../assets/api.png" alt="" />
