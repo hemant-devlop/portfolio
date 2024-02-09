@@ -1,8 +1,8 @@
 
 
 .skill-box{
-    height: 150px;
-    width: 180px;
+    height: 140px;
+    width: 160px;
     border-radius: 10px;
     display: flex;
     /* flex-direction: column; */
@@ -10,11 +10,24 @@
     align-items: center;
     padding: 10px;
     box-shadow: 2px 2px 10px skyblue;
+    
+}
+.skill-box:hover img{
+    scale: 1.2;
 }
 
 .skill-box > img{
     height:100px;
     width:100px;
+    transition: all 0.3s ease-in-out;
+   
 }
 
+
+@media ( max-width: 660px){
+    .skill-box{
+        height: 100px;
+        width: 100px;
+    }
+}
 
