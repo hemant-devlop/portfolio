@@ -58,7 +58,7 @@ const NavbarComponent = () => {
           </div>
         </div>
 
-         <NavLink className="navbar-brand  order-lg-1 " to={'/resume'} >   {/*href="../assets/resume.pdf"  download={true} */}
+         <NavLink className="navbar-brand  order-lg-1 " to={'/resume'} >   
         <button className="btn btn-outline-dark rounded-0 font mx-2"> RESUME &nbsp;<i className="bi bi-download"></i></button>
         </NavLink>
       </div>

@@ -3,6 +3,7 @@ import React from 'react';
 const Resume = () => {
   return (
     <div style={{ fontFamily: 'Arial, sans-serif', margin: '20px' ,textAlign:'center' }}>
+    <a href="../assets/resume1.pdf"  download={true}><button className='btn btn-sm btn-primary'>downlod</button></a>
       <h1>Hemant Kumar</h1>
       <p>Email: <a href="mailto:hemant.devlop@gmail.com  ">Hemant.devlop@gmail.com</a></p>
       <p>LinkedIn: <a href="https://www.linkedin.com/in/hemantdevloper" target="_blank" rel="noopener noreferrer">Linkedin/hemantdevloper</a></p>
