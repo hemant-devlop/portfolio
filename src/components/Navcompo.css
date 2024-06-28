@@ -3,3 +3,9 @@
      font-family: 'Odibee Sans', sans-serif !important;
      letter-spacing: 1px;
  }
+ .navbar-nav .nav-item .active{
+  /* background-color: white;  */
+  border-radius: 5px;
+  text-decoration: underline;
+
+ }

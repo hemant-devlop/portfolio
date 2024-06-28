@@ -6,6 +6,7 @@ import Home from './components/Home'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import PageNotFound from './components/PageNotFound'
+import Resume from './components/Resume'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
     <NavbarComponent/>
       <Routes>
         <Route path='/' element={<Home/>}/>
+        <Route path='/resume' element={<Resume/>} />
         <Route path='/skills' element={<Skills/>}/>
         <Route path='/projects' element={<Projects/>}/>
         <Route path='*' element={<PageNotFound/>}/>
