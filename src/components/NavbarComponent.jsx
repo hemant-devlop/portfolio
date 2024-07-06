@@ -11,7 +11,9 @@ const NavbarComponent = () => {
           <span className="navbar-toggler-icon" style={{fontSize:'16px'}}></span>
         </button>
           {/* <span className="px-2 font">H K</span> */}
+          <NavLink to='/' style={{color:'black',textDecoration:'none'}}>
           <h1 className="px-2 font m-0">H K</h1>
+          </NavLink>
         <div
           className="offcanvas offcanvas-start" style={{width:'60%'}}
           tabIndex="-1"

@@ -1,5 +1,6 @@
 import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import { NavLink } from "react-router-dom";
 import "./Home.css";
 const Home = () => {
   return (
@@ -21,8 +22,7 @@ const Home = () => {
           <h1 className="font">About Me</h1>
         <p className="pb-3" style={{lineHeight:'24px',maxWidth:'30rem',fontSize:'18px'}}>
           Hi, My name is <strong>Hemant Kumar</strong>. I am a 21 year old web developer
-          residing in Haryana Mohendergarh. I am recently graduate from 
-          BCA in Computer Science, I am well-versed in the latest web and mobile app development technologies.
+          residing in Haryana Mahendergarh. I am graduated from BCA in Computer Science, I am well-versed in the latest web and mobile app development technologies.
           Graduating with honors to my name, I am eager to apply my skills in a
           challenging role where I can continue to learn and grow as a
           developer. Passionate about creating clean, efficient code and
@@ -34,6 +34,9 @@ const Home = () => {
         <div>
           <a href="https://github.com/hemant-devlop" target="_blank" className="btn  rounded-0"><i className="bi bi-github fs-1 me-2"></i></a>
           <a href="https://www.linkedin.com/in/hemantdevloper/" target="_blank" className="btn  rounded-0"><i className="bi bi-linkedin fs-1"></i></a>
+          <NavLink className="navbar-brand  order-lg-1 " to={'/resume'} >   
+        <button className="btn btn-outline-dark rounded-0 font mx-2"> RESUME &nbsp;<i className="bi bi-download"></i></button>
+        </NavLink>
         </div>
         </div>
       </div>
