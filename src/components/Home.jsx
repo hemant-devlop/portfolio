@@ -2,8 +2,10 @@ import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { NavLink } from "react-router-dom";
 import "./Home.css";
+import Skills from "./Skills";
 const Home = () => {
   return (
+    <>
     <div className="container-md d-md-flex hight">
       <div className="order-md-2 d-flex justify-content-center align-items-center" style={{ flex: 1 }}>
         <div className="px-5 pt-5">
@@ -41,6 +43,7 @@ const Home = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

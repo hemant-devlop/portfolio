@@ -47,7 +47,7 @@ const Projects = () => {
                   </button>
                 </div>
                 <div>
-                  <a href="*" className="btn  rounded-0">
+                  <a href="https://github.com/hemant-devlop" target="_blank" className="btn  rounded-0">
                     <i className="bi bi-github fs-3 me-2"></i>
                   </a>
                   <a
@@ -99,7 +99,7 @@ const Projects = () => {
                   </button>
                 </div>
                 <div>
-                  <a href="*" className="btn  rounded-0">
+                  <a href="https://github.com/hemant-devlop" target="_blank" className="btn  rounded-0">
                     <i className="bi bi-github fs-3 me-2"></i>
                   </a>
                   <a
@@ -147,7 +147,7 @@ const Projects = () => {
                   </button>
                 </div>
                 <div>
-                  <a href="*" className="btn  rounded-0">
+                  <a href="https://github.com/hemant-devlop" target="_blank" className="btn  rounded-0">
                     <i className="bi bi-github fs-3 me-2"></i>
                   </a>
                   <a
@@ -196,7 +196,7 @@ const Projects = () => {
                   </button>
                 </div>
                 <div>
-                  <a href="*" className="btn  rounded-0">
+                  <a href="https://github.com/hemant-devlop" target="_blank" className="btn  rounded-0">
                     <i className="bi bi-github fs-3 me-2"></i>
                   </a>
                   <a
@@ -248,7 +248,7 @@ const Projects = () => {
                   </button>
                 </div>
                 <div>
-                  <a href="*" className="btn  rounded-0">
+                  <a href="https://github.com/hemant-devlop" target="_blank" className="btn  rounded-0">
                     <i className="bi bi-github fs-3 me-2"></i>
                   </a>
                   <a
@@ -295,7 +295,7 @@ const Projects = () => {
                   </button>
                 </div>
                 <div>
-                  <a href="*" className="btn  rounded-0">
+                  <a href="https://github.com/hemant-devlop" target="_blank" className="btn  rounded-0">
                     <i className="bi bi-github fs-3 me-2"></i>
                   </a>
                   <a
