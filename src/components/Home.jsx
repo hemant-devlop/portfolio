@@ -2,7 +2,6 @@ import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { NavLink } from "react-router-dom";
 import "./Home.css";
-import Skills from "./Skills";
 const Home = () => {
   return (
     <>
@@ -40,6 +39,7 @@ const Home = () => {
         <button className="btn btn-outline-dark rounded-0 font mx-2"> RESUME &nbsp;<i className="bi bi-download"></i></button>
         </NavLink>
         </div>
+
         </div>
       </div>
     </div>

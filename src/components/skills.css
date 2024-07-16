@@ -10,18 +10,13 @@
     align-items: center;
     padding: 10px;
     box-shadow: 2px 2px 10px skyblue;
+    transition: all 0.3s ease-in-out;
     
 }
-.skill-box:hover img{
+.skill-box:hover{
     scale: 1.2;
 }
 
-.skill-box > img{
-    height:100px;
-    width:100px;
-    transition: all 0.3s ease-in-out;
-   
-}
 
 
 @media ( max-width: 660px){
