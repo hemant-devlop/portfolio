@@ -7,7 +7,7 @@
     height: 85vh !important;
 } */
 .about-animate{
-    animation: about 1s;
+    animation: about 2s;
 }
 @keyframes about {
     from{

@@ -3,7 +3,7 @@
 }
 
 .profile-animate{
-    animation: prof 1s;
+    animation: prof 2s;
 }
 @keyframes prof {
     from{
