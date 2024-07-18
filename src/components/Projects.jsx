@@ -2,7 +2,8 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div className="container mt-3">
+    <div className="container mt-3" id="projects">
+    <h1 className='font text-center py-3 text-decoration-underline ' id='skill'>My Projects</h1>
       <div
         id="carouselExampleAutoplaying"
         className="carousel slide"
@@ -10,58 +11,6 @@ const Projects = () => {
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <div className="row">
-              <div className="col-md-6">
-                <img
-                  src="../assets/car01.png"
-                  className="d-block w-100 border border-2 border-info rounded-4"
-                  alt="..."
-                />
-              </div>
-              <div className="col-md-6 d-flex flex-column align-items-center ">
-                <h3 className="pt-2">My University</h3>
-                <p className="text-center text-md-start">
-                  I'm crafting a dynamic university website using React with
-                  cutting-edge routing concepts. Seamlessly navigating through
-                  diverse sections, each page offers an immersive experience.
-                  Responsive design ensures accessibility across devices, while
-                  state-of-the-art features enhance functionality. From vibrant
-                  landing pages to detailed academic sections, the website
-                  reflects the university's diverse offerings. Engage in a
-                  virtual campus tour, explore courses effortlessly.I redefine
-                  our university's online presence, creating a modern and
-                  user-friendly digital space.
-                </p>
-                <div className="d-flex gap-2">
-                  <button className="btn btn-sm btn-outline-dark  font px-3 text-decoration-underline">
-                    React
-                  </button>
-                  <button className="btn btn-sm btn-outline-dark  font px-3 text-decoration-underline">
-                    Bootstrap
-                  </button>
-                  <button className="btn btn-sm btn-outline-dark  font px-3 text-decoration-underline">
-                    Html5
-                  </button>
-                  <button className="btn btn-sm btn-outline-dark  font px-3 text-decoration-underline">
-                    css3{" "}
-                  </button>
-                </div>
-                <div>
-                  <a href="https://github.com/hemant-devlop" target="_blank" className="btn  rounded-0">
-                    <i className="bi bi-github fs-3 me-2"></i>
-                  </a>
-                  <a
-                    href="https://real001-igu-project.netlify.app/"
-                    target="_blank"
-                    className="btn  rounded-0"
-                  >
-                    <i className="bi bi-globe fs-3"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="carousel-item">
             <div className="row">
               <div className="col-md-6">
                 <img
@@ -113,6 +62,58 @@ const Projects = () => {
               </div>
             </div>
           </div>
+
+          <div className="carousel-item">
+            <div className="row">
+              <div className="col-md-6">
+                <img
+                  src="../assets/car2.0.png"
+                  className="d-block w-100 border border-2 border-info rounded-4"
+                  alt="..."
+                />
+              </div>
+              <div className="col-md-6 d-flex flex-column align-items-center">
+                <h3 className="pt-2">Shoping cart application</h3>
+                <div className=" text-md-start">
+                A dynamic shopping cart application built with React and Redux, featuring:
+                <ul>
+                  <li>Add to Cart: Seamlessly add products.</li>
+                  <li>Update Quantity: Increase or decrease item quantities.</li>
+                  <li>Remove Items: Easily remove items from the cart.</li>
+                  <li>State Persistence: Maintains cart state across page reloads.</li>
+                  <li>Responsive Design: Optimized for both desktop and mobile devices.</li>
+                </ul>
+                </div>
+                <div className="d-flex gap-2">
+                  <button className="btn btn-sm btn-outline-dark  font px-3 text-decoration-underline">
+                    React
+                  </button>
+                  <button className="btn btn-sm btn-outline-dark  font px-3 text-decoration-underline">
+                    Redux
+                  </button>
+                  <button className="btn btn-sm btn-outline-dark  font px-3 text-decoration-underline">
+                    Js
+                  </button>
+                  <button className="btn btn-sm btn-outline-dark  font px-3 text-decoration-underline">
+                    Bootstrap
+                  </button>
+                </div>
+                <div>
+                  <a href="https://github.com/hemant-devlop" target="_blank" className="btn  rounded-0">
+                    <i className="bi bi-github fs-3 me-2"></i>
+                  </a>
+                  <a
+                    href="https://hemantdeveloper.netlify.app/"
+                    target="_blank"
+                    className="btn  rounded-0"
+                  >
+                    <i className="bi bi-globe fs-3"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* another slide */}
           <div className="carousel-item">
             <div className="row">
               <div className="col-md-6">
@@ -152,6 +153,58 @@ const Projects = () => {
                   </a>
                   <a
                     href="https://shopied.netlify.app/"
+                    target="_blank"
+                    className="btn  rounded-0"
+                  >
+                    <i className="bi bi-globe fs-3"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="carousel-item">
+            <div className="row">
+              <div className="col-md-6">
+                <img
+                  src="../assets/car01.png"
+                  className="d-block w-100 border border-2 border-info rounded-4"
+                  alt="..."
+                />
+              </div>
+              <div className="col-md-6 d-flex flex-column align-items-center ">
+                <h3 className="pt-2">My University</h3>
+                <p className="text-center text-md-start">
+                  I'm crafting a dynamic university website using React with
+                  cutting-edge routing concepts. Seamlessly navigating through
+                  diverse sections, each page offers an immersive experience.
+                  Responsive design ensures accessibility across devices, while
+                  state-of-the-art features enhance functionality. From vibrant
+                  landing pages to detailed academic sections, the website
+                  reflects the university's diverse offerings. Engage in a
+                  virtual campus tour, explore courses effortlessly.I redefine
+                  our university's online presence, creating a modern and
+                  user-friendly digital space.
+                </p>
+                <div className="d-flex gap-2">
+                  <button className="btn btn-sm btn-outline-dark  font px-3 text-decoration-underline">
+                    React
+                  </button>
+                  <button className="btn btn-sm btn-outline-dark  font px-3 text-decoration-underline">
+                    Bootstrap
+                  </button>
+                  <button className="btn btn-sm btn-outline-dark  font px-3 text-decoration-underline">
+                    Html5
+                  </button>
+                  <button className="btn btn-sm btn-outline-dark  font px-3 text-decoration-underline">
+                    css3{" "}
+                  </button>
+                </div>
+                <div>
+                  <a href="https://github.com/hemant-devlop" target="_blank" className="btn  rounded-0">
+                    <i className="bi bi-github fs-3 me-2"></i>
+                  </a>
+                  <a
+                    href="https://real001-igu-project.netlify.app/"
                     target="_blank"
                     className="btn  rounded-0"
                   >

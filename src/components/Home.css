@@ -6,3 +6,15 @@
 /* .hight{
     height: 85vh !important;
 } */
+.about-animate{
+    animation: about 1s;
+}
+@keyframes about {
+    from{
+        translate: 10vw 0;
+    }
+    to{
+        translate: 0 0;
+    }
+    
+}

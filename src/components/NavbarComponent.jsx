@@ -3,6 +3,15 @@ import "./Navcompo.css";
 import { Link, NavLink } from "react-router-dom";
 
 const NavbarComponent = () => {
+  // const [click, setClick] = React.useState(false);
+
+  // const handleClick = () => setClick(!click);
+
+  const closeMobileMenu = (id) => {
+    const section = document.querySelector(id);
+    section.scrollIntoView({ behavior: "smooth", block: "start" });
+    // setClick(false);
+  };
   return (
     <nav className="navbar navbar-expand-lg sticky-top" style={{backgroundColor:"#e3f2fd"}}>
       <div className="container d-flex ">
@@ -34,7 +43,11 @@ const NavbarComponent = () => {
           <div className="offcanvas-body d-flex justify-content-end">
             <ul className="navbar-nav mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink className="nav-link px-lg-3 font" aria-current="page" to="/">
+                <NavLink className="nav-link px-lg-3 font"
+                aria-current="page" 
+                to="/"
+                onClick={()=>closeMobileMenu('#about')}
+                >
                   ABOUT
                 </NavLink>
               </li>
@@ -42,7 +55,8 @@ const NavbarComponent = () => {
                 <NavLink
                   className="nav-link font"
                   aria-current="page"
-                  to="/skills"
+                  to="skills"
+                  onClick={()=>closeMobileMenu('#skills')}
                 >
                   SKILLS
                 </NavLink>
@@ -51,7 +65,8 @@ const NavbarComponent = () => {
                 <NavLink
                   className="nav-link font"
                   aria-current="page"
-                  to="/projects"
+                  to="projects"
+                  onClick={()=>closeMobileMenu('#projects')}
                 >
                   PROJECTS
                 </NavLink>
@@ -59,8 +74,7 @@ const NavbarComponent = () => {
             </ul>
           </div>
         </div>
-
-         <NavLink className="navbar-brand  order-lg-1 " to={'/resume'} >   
+         <NavLink className="navbar-brand  order-lg-1 " to={'/resume'}>   
         <button className="btn btn-outline-dark rounded-0 font mx-2"> RESUME &nbsp;<i className="bi bi-download"></i></button>
         </NavLink>
       </div>

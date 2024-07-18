@@ -1,0 +1,18 @@
+.profile-img img{
+    max-height: 350px;
+}
+
+.profile-animate{
+    animation: prof 1s;
+}
+@keyframes prof {
+    from{
+        translate: -10vw 0;
+        opacity: 20%;
+    }
+    to{
+        translate: 0 0;
+        opacity: 100%;
+    }
+    
+}
