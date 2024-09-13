@@ -22,6 +22,7 @@ const Skills = () => {
         { logoFile: 'logos:netlify-icon', id: 16 },
         { logoFile: 'logos:vercel-icon', id: 17 },
         { logoFile: 'simple-icons:render', id: 18 },
+        { logoFile: 'logos:tailwindcss-icon', id: 18 },
     ]
     return (
             <Col>

@@ -1,9 +1,12 @@
 
 
 .skill-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     width: 130px;
-    display: inline-block;
+    /* display: inline-block; */
     border-radius: 10px;
     padding: 10px;
     box-shadow: 2px 2px 10px skyblue;
