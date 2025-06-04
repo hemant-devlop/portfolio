@@ -1,9 +1,11 @@
 .profile-img img{
     max-height: 350px;
+
 }
 
 .profile-animate{
     animation: prof 2s;
+    position: relative;
 }
 @keyframes prof {
     from{

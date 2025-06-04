@@ -4,12 +4,12 @@ import './ProfilePhotoAnimate.css'
 const ProfilePhotoAnimate = () => {
   return (
     <div className="profile-animate">
-    <div className="profile-img profile-animate">
+    <div className="profile-img profile-animate ">
       <img
-        src="../assets/profff.png"
-        className="img-fluid rounded-circle shadow"
+        src="../assets/profff.jpg"
+        className="img-fluid rounded-circle shadow border border-black border-3"
         alt=""
-        data-placeholder="../assets/profff_zitjjz.png"
+        data-placeholder="../assets/profff_zitjjz.jpg"
       />
     </div>
   </div>

@@ -22,7 +22,7 @@ const Skills = () => {
         { logoFile: 'logos:netlify-icon', id: 16 },
         { logoFile: 'logos:vercel-icon', id: 17 },
         { logoFile: 'simple-icons:render', id: 18 },
-        { logoFile: 'logos:tailwindcss-icon', id: 18 },
+        { logoFile: 'logos:tailwindcss-icon', id: 19 },
     ]
     return (
             <Col>
@@ -32,10 +32,10 @@ const Skills = () => {
                         <div className='skill-box' key={item.id}>
                             <Icon icon={item.logoFile} title={item.title} height='30px'  />
                         </div>)}
+
                     <div className='skill-box'>
                         <button className='btn rounded-0'>Coming...</button>
                     </div>
-
                 </div>
             </Col>
     )
