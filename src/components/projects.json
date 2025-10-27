@@ -6,6 +6,13 @@
     "project_git":"https://github.com/hemant-devlop/Bridgekala-ngo",
     "project_web":"https://bridgekalango.netlify.app/"},
 
+   { "project_img":"../assets/proj09.png",
+    "project_title":"Todo App",
+    "project_description":"Developed using MERN Stack, Redux Toolkit, and Socket.IO for fast, interactive, and scalable social networking.",
+    "project_stack":["html","css","bootstrap","reactjs"],
+    "project_git":"https://github.com/hemant-devlop/todo-mern",
+    "project_web":"https://todo-frontend-8xk8.onrender.com"},
+
     { "project_img":"../assets/car04.png",
     "project_title":"Usability Hub",
     "project_description":"UsabilityHub is a remote user research platform that takes the guesswork out of design decisions by validating them with real users.",
@@ -25,7 +32,7 @@
     "project_description":"Developed using MERN Stack, Redux Toolkit, and Socket.IO for fast, interactive, and scalable social networking.",
     "project_stack":"",
     "project_git":"https://github.com/hemant-devlop/instagram_clone",
-    "project_web":"https://instagram-clone-6778.onrender.com"},
+    "project_web":"https://github.com/hemant-devlop/instagram_clone"},
 
     { "project_img":"../assets/proj05.png",
     "project_title":"Shoping Website",
