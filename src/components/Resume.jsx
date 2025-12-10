@@ -1,7 +1,8 @@
 import React from 'react';
 import { Container, Row, Col, ListGroup } from 'react-bootstrap';
 const Resume = () => {
-  const googleDriveId='1-vN2lV_SCk1xfsIsQw28WfXZ_wJceCqc';
+  const googleDriveId='147ramDx9a-84fNPAIIIDUkVADhsGyG2t'; // ID from
+  // https://drive.google.com/file/d/147ramDx9a-84fNPAIIIDUkVADhsGyG2t/view?usp=sharing
   return (
     <Container>
       <Row className="mt-4 text-sm-center">
