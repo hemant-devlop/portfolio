@@ -3,13 +3,13 @@ import projects from '../components/projects.json';
 const Projects = () => {
   return (
     <div className="container my-3" id="projects">
-    <h1 className='font text-center py-3 text-decoration-underline ' id='skill'>My Projects</h1>
+    <h2 className='font text-center py-3 text-decoration-underline ' id='skill'>My Projects</h2>
       <Row>
       {projects.map((p,id)=>
       <Col key={id} sm={6} className="mb-3 d-flex flex-column justify-content-between">
         <div className="d-lg-flex gap-3 mb-2">
         <a href={p.project_web}>
-                    <img  src={p.project_img} alt="" height={220} width={300} className="mx-auto d-block border border-info rounded-1"/>
+                    <img  src={p.project_img} alt="image" height={220} width={300} className="mx-auto d-block border border-info rounded-1"/>
 
         </a>
           <div className="">

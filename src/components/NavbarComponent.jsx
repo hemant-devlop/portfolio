@@ -16,12 +16,12 @@ const NavbarComponent = () => {
     <nav className="navbar navbar-expand-lg sticky-top" style={{backgroundColor:"#e3f2fd"}}>
       <div className="container d-flex ">
         
-        <button className="navbar-toggler border-0 p-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+        <button aria-label="open" className="navbar-toggler border-0 p-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
           <span className="navbar-toggler-icon" style={{fontSize:'16px'}}></span>
         </button>
           {/* <span className="px-2 font">H K</span> */}
           <NavLink to='/' style={{color:'black',textDecoration:'none'}}>
-          <h1 className="px-2 font m-0">H K</h1>
+          <span className="px-2 font m-0">H K</span>
           </NavLink>
         <div
           className="offcanvas offcanvas-start" style={{width:'60%'}}
@@ -30,9 +30,9 @@ const NavbarComponent = () => {
           aria-labelledby="offcanvasExampleLabel"
         >
           <div className="offcanvas-header">
-            <h3 className="offcanvas-title font" id="offcanvasExampleLabel">
+            <span className="offcanvas-title font" id="offcanvasExampleLabel">
               Hemant kumar
-            </h3>
+            </span>
             <button
               type="button"
               className="btn-close"
@@ -75,7 +75,7 @@ const NavbarComponent = () => {
           </div>
         </div>
          <NavLink className="navbar-brand  order-lg-1 " to={'/resume'}>   
-        <button className="btn btn-outline-dark rounded-0 font mx-2"> RESUME &nbsp;<i className="bi bi-download"></i></button>
+        <button aria-label="resume_open" className="btn btn-outline-dark rounded-0 font mx-2 min-h-[10px] min-w-[20px]"> RESUME &nbsp;<i className="bi bi-download"></i></button>
         </NavLink>
       </div>
     </nav>

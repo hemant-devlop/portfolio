@@ -19,14 +19,14 @@ const Home = () => {
         </Col>
         <Col sm={12} md={6} className=" p-3 d-flex justify-content-sm-start justify-content-center  align-items-end order-md-1 animate-about" style={{ flex: 1 }}>
           <div className="about-animate" >
-            <h2 className="font" style={{fontSize:'3rem'}}>I am <br /> Hemant kumar</h2>
-            <h3 className="font" style={{fontSize:'3rem'}}>MERN Stack developer</h3>
+            <h1 className="font" style={{fontSize:'3rem'}}>I am <br /> Hemant kumar</h1>
+            <h2 className="font" style={{fontSize:'3rem'}}>MERN Stack developer</h2>
             <hr />
             <div>
               <a href="https://github.com/hemant-devlop" target="_blank" className="btn  rounded-0"><i className="bi bi-github fs-1 me-2"></i></a>
               <a href="https://www.linkedin.com/in/hemantdevloper/" target="_blank" className="btn  rounded-0"><i className="bi bi-linkedin fs-1"></i></a>
               <NavLink className="navbar-brand  order-lg-1 " to={'/resume'} >
-                <button className="btn btn-outline-dark rounded-0 font mx-2"> RESUME &nbsp;<i className="bi bi-download"></i></button>
+                <button aria-label="resume_button" className="btn btn-outline-dark rounded-0 font mx-2"> RESUME &nbsp;<i className="bi bi-download"></i></button>
               </NavLink>
             </div>
           </div>

@@ -8,7 +8,7 @@ const ProfilePhotoAnimate = () => {
       <img
         src="../assets/profff.jpg"
         className="img-fluid rounded-circle shadow border border-black border-3"
-        alt=""
+        alt="image"
         data-placeholder="../assets/profff_zitjjz.jpg"
       />
     </div>

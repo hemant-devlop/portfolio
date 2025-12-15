@@ -26,7 +26,7 @@ const Skills = () => {
     ]
     return (
             <Col>
-                <h1 className='font text-center py-3 text-decoration-underline ' id='skills'>My Skills With Latest Trends</h1>
+                <h2 className='font text-center py-3 text-decoration-underline ' id='skills'>My Skills With Latest Trends</h2>
                 <div className='d-flex flex-wrap justify-content-center p-3'>
                     {skillLogo.map(item =>
                         <div className='skill-box' key={item.id}>
@@ -34,7 +34,7 @@ const Skills = () => {
                         </div>)}
 
                     <div className='skill-box'>
-                        <button className='btn rounded-0'>Coming...</button>
+                        <span className='btn rounded-0'>Coming...</span>
                     </div>
                 </div>
             </Col>

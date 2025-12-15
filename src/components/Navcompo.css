@@ -2,6 +2,7 @@
   .font{
      font-family: 'Odibee Sans', sans-serif !important;
      letter-spacing: 1px;
+     font-size: 2.5rem;
  }
  .navbar-nav .nav-item .active{
   /* background-color: white;  */
