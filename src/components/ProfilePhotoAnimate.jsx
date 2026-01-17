@@ -1,18 +1,15 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import './ProfilePhotoAnimate.css'
+import gsap from 'gsap'
 
-const ProfilePhotoAnimate = () => {
+const ProfilePhotoAnimate = ({animRef}) => {
+  
   return (
-    <div className="profile-animate">
-    <div className="profile-img profile-animate ">
-      <img
-        src="../assets/profff.jpg"
-        className="img-fluid rounded-circle shadow border border-black border-3"
-        alt="image"
-        data-placeholder="../assets/profff_zitjjz.jpg"
-      />
+    <div ref={animRef}>
+      <div className="profile-img ">
+        
+      </div>
     </div>
-  </div>
   )
 }
 

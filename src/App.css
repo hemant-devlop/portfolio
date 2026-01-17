@@ -1,5 +1,1 @@
-/* .app{
-    height: 100vh !important;
-    min-height: 100vh !important;
-    background-color: #f5f5f5 !important;
-} */
+@import "tailwindcss";

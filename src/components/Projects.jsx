@@ -14,7 +14,7 @@ const Projects = () => {
         </a>
           <div className="">
             <h3 className="text-center mt-2 font">{p.project_title}</h3>
-            <p>{p.project_description}</p>
+            <p className=" max-w-100 text-justify">{p.project_description}</p>
           </div>
         </div>
         <div className="d-flex gap-2">
