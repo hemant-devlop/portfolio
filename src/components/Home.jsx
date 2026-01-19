@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 
 import { NavLink, Outlet } from "react-router-dom";
 import "./Home.css";
-import ProfilePhotoAnimate from "./ProfilePhotoAnimate";
 import { Col, Container, Row } from "react-bootstrap";
 import Skills from "./Skills";
 import Projects from "./Projects";
@@ -54,7 +53,7 @@ const Home = () => {
             <img
 
               src="../assets/profff.jpg"
-              className="img-fluid imgy max-h-87 rounded-3xl shadow border-gray border-3"
+              className="img-fluid imgy max-h-87 rounded-full shadow border-gray border-3"
               alt="image"
               data-placeholder="../assets/profff_zitjjz.jpg"
             />

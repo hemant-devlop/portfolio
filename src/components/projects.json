@@ -13,12 +13,12 @@
     "project_git":"https://github.com/hemant-devlop/todo-mern",
     "project_web":"https://todo-frontend-8xk8.onrender.com"},
 
-    { "project_img":"../assets/car04.png",
-    "project_title":"Usability Hub",
-    "project_description":"UsabilityHub is a remote user research platform that takes the guesswork out of design decisions by validating them with real users.",
+    { "project_img":"../assets/shopin.png",
+    "project_title":"Shop-IN cart",
+    "project_description":"ShopIN is a remote user platform that help user to add product to cart and and purchase and explore log in log out functionality and many other features",
     "project_stack":"",
-    "project_git":"https://github.com/hemant-devlop",
-    "project_web":"https://ducat-project01.netlify.app/"},
+    "project_git":"https://github.com/hemant-devlop/MERN-shopIN",
+    "project_web":"https://shopin001.netlify.app/"},
 
     { "project_img":"../assets/proj02.png",
     "project_title":"Dream Home Designs",
