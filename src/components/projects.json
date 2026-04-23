@@ -1,24 +1,32 @@
 [
    { "project_img":"../assets/proj01.png",
-    "project_title":"BridgeKala NGO",
-    "project_description":"A Foundation Dedicated to Health, Education & Welfare We are a non-profit organization working to improve lives by providing healthcare, educational support",
-    "project_stack":["html","css","bootstrap","reactjs"],
-    "project_git":"https://github.com/hemant-devlop/Bridgekala-ngo",
-    "project_web":"https://bridgekalango.netlify.app/"},
+    "project_title":"Spotify Clone",
+    "project_description":"Built a Spotify-inspired music app with playlist browsing, audio playback, and a responsive UI using modern front-end technologies.",
+    "project_stack":["html","tailwindCss","Nextjs"],
+    "project_git":"https://github.com/hemant-devlop/spotify",
+    "project_web":"https://spotify-hemant001.netlify.app/"},
 
-   { "project_img":"../assets/proj09.png",
-    "project_title":"Todo App",
-    "project_description":"Developed using MERN Stack, Redux Toolkit, and Socket.IO for fast, interactive, and scalable social networking.",
-    "project_stack":["html","css","bootstrap","reactjs"],
-    "project_git":"https://github.com/hemant-devlop/todo-mern",
-    "project_web":"https://todo-frontend-8xk8.onrender.com"},
-
+    
     { "project_img":"../assets/shopin.png",
     "project_title":"Shop-IN cart",
     "project_description":"ShopIN is a remote user platform that help user to add product to cart and and purchase and explore log in log out functionality and many other features",
     "project_stack":"",
     "project_git":"https://github.com/hemant-devlop/MERN-shopIN",
     "project_web":"https://shopin001.netlify.app/"},
+    
+    { "project_img":"../assets/proj04.png",
+    "project_title":"Personal Portfolio",
+    "project_description":"Developed using MERN Stack, Redux Toolkit, and Socket.IO for fast, interactive, and scalable social networking.",
+    "project_stack":"",
+    "project_git":"https://github.com/hemant-devlop/portfolio",
+    "project_web":"https://hemantdeveloper.netlify.app/"},
+    
+    { "project_img":"../assets/proj09.png",
+     "project_title":"Todo App",
+     "project_description":"Developed using MERN Stack, Redux Toolkit, and Socket.IO for fast, interactive, and scalable social networking.",
+     "project_stack":["html","css","bootstrap","reactjs"],
+     "project_git":"https://github.com/hemant-devlop/todo-mern",
+     "project_web":"https://todo-frontend-8xk8.onrender.com"},
 
     { "project_img":"../assets/proj02.png",
     "project_title":"Dream Home Designs",
@@ -41,12 +49,6 @@
     "project_git":"https://github.com/hemant-devlop",
     "project_web":"https://shopied.netlify.app/"},
 
-    { "project_img":"../assets/proj04.png",
-    "project_title":"Personal Portfolio",
-    "project_description":"Developed using MERN Stack, Redux Toolkit, and Socket.IO for fast, interactive, and scalable social networking.",
-    "project_stack":"",
-    "project_git":"https://github.com/hemant-devlop/portfolio",
-    "project_web":"https://hemantdeveloper.netlify.app/"},
 
     { "project_img":"../assets/proj07.png",
     "project_title":"Todo application",
