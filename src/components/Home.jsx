@@ -61,8 +61,8 @@ const Home = () => {
         </Col>
         <Col sm={12} md={6} className=" p-3 d-flex justify-content-sm-start justify-content-center  align-items-end order-md-1 animate-about" style={{ flex: 1 }}>
           <div className="texty" >
-            <h1 className="font" style={{ fontSize: '3rem' }}>I am <br /> Hemant kumar</h1>
-            <h2 className="font" style={{ fontSize: '3rem' }}>MERN Stack developer</h2>
+            <h1 className="font" style={{ fontSize: '3rem' }}>I am <br /> Hemant Kumar</h1>
+            <h2 className="font" style={{ fontSize: '3rem' }}>Software Engineer</h2>
             <hr />
             <div>
               <a href="https://github.com/hemant-devlop" target="_blank" className="btn  rounded-0"><i className="bi bi-github fs-1 me-2 "></i></a>

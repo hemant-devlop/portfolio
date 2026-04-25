@@ -31,7 +31,7 @@ const NavbarComponent = () => {
         >
           <div className="offcanvas-header">
             <span className="offcanvas-title font" id="offcanvasExampleLabel">
-              Hemant kumar
+              Hemant kumarjj
             </span>
             <button
               type="button"
