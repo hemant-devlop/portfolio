@@ -1,5 +1,5 @@
 [
-   { "project_img":"../assets/proj01.png",
+   { "project_img":"../assets/proj01.webp",
     "project_title":"Spotify Clone",
     "project_description":"Built a Spotify-inspired music app with playlist browsing, audio playback, and a responsive UI using modern front-end technologies.",
     "project_stack":["html","tailwindCss","Nextjs"],
@@ -7,67 +7,39 @@
     "project_web":"https://spotify-hemant001.netlify.app/"},
 
     
-    { "project_img":"../assets/shopin.png",
+    { "project_img":"../assets/proj02.webp",
     "project_title":"Shop-IN cart",
     "project_description":"ShopIN is a remote user platform that help user to add product to cart and and purchase and explore log in log out functionality and many other features",
     "project_stack":"",
     "project_git":"https://github.com/hemant-devlop/MERN-shopIN",
     "project_web":"https://shopin001.netlify.app/"},
     
-    { "project_img":"../assets/proj04.png",
+    { "project_img":"../assets/proj03.webp",
     "project_title":"Personal Portfolio",
     "project_description":"Developed using MERN Stack, Redux Toolkit, and Socket.IO for fast, interactive, and scalable social networking.",
     "project_stack":"",
     "project_git":"https://github.com/hemant-devlop/portfolio",
     "project_web":"https://hemantdeveloper.netlify.app/"},
     
-    { "project_img":"../assets/proj09.png",
+    { "project_img":"../assets/proj04.webp",
      "project_title":"Todo App",
      "project_description":"Developed using MERN Stack, Redux Toolkit, and Socket.IO for fast, interactive, and scalable social networking.",
      "project_stack":["html","css","bootstrap","reactjs"],
      "project_git":"https://github.com/hemant-devlop/todo-mern",
      "project_web":"https://todo-frontend-8xk8.onrender.com"},
 
-    { "project_img":"../assets/proj02.png",
-    "project_title":"Dream Home Designs",
-    "project_description":"We specialize in creating elegant, functional, and personalized home designs that reflect your lifestyle and vision.",
-    "project_stack":"",
-    "project_git":"https://github.com/hemant-devlop/Home_design",
-    "project_web":"https://dream-home-design.netlify.app/"},
 
-    { "project_img":"../assets/proj03.png",
+    { "project_img":"../assets/proj05.webp",
     "project_title":"Instagram Clone",
     "project_description":"Developed using MERN Stack, Redux Toolkit, and Socket.IO for fast, interactive, and scalable social networking.",
     "project_stack":"",
     "project_git":"https://github.com/hemant-devlop/instagram_clone",
     "project_web":"https://github.com/hemant-devlop/instagram_clone"},
 
-    { "project_img":"../assets/proj05.png",
-    "project_title":"Shoping Website",
-    "project_description":"Developed using MERN Stack, Redux Toolkit, and Socket.IO for fast, interactive, and scalable social networking.",
-    "project_stack":"",
-    "project_git":"https://github.com/hemant-devlop",
-    "project_web":"https://shopied.netlify.app/"},
-
-
-    { "project_img":"../assets/proj07.png",
-    "project_title":"Todo application",
-    "project_description":"Developed using MERN Stack, Redux Toolkit, and Socket.IO for fast, interactive, and scalable social networking.",
-    "project_stack":"",
-    "project_git":"https://github.com/hemant-devlop",
-    "project_web":"https://real001-todolist.netlify.app/"},
-
-    { "project_img":"../assets/proj06.png",
+    { "project_img":"../assets/proj06.webp",
     "project_title":"University website",
     "project_description":"Developed using MERN Stack, Redux Toolkit, and Socket.IO for fast, interactive, and scalable social networking.",
     "project_stack":"",
     "project_git":"https://github.com/hemant-devlop",
-    "project_web":"https://github.com/hemant-devlop/redux-ecommerce-cart"},
-
-    { "project_img":"../assets/proj08.png",
-    "project_title":"E-commerce cart",
-    "project_description":"Developed using React js, Redux Toolkit",
-    "project_stack":"",
-    "project_git":"https://github.com/hemant-devlop/redux-ecommerce-cart",
     "project_web":"https://github.com/hemant-devlop/redux-ecommerce-cart"}
   ]

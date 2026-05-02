@@ -8,18 +8,19 @@ import Projects from "./Projects";
 import About from "./About";
 import { useRef } from "react";
 import gsap from "gsap";
+import ResumeBtn from "./ResumeBtn";
 
 const Home = () => {
   const animRef = useRef()
   useEffect(() => {
     let tl = gsap.timeline()
-    tl.fromTo('.uppr',{
-      y:0,
-    },{
-      y:-900,
-      opacity:0.9,
-      delay:1,
-      duration:1.6,
+    tl.fromTo('.uppr', {
+      y: 0,
+    }, {
+      y: -900,
+      opacity: 0.9,
+      delay: 0.5,
+      duration: 1.6,
     })
     tl.fromTo(".imgy", {
       scale: 0,
@@ -40,47 +41,46 @@ const Home = () => {
     })
   }, [])
   return (
-    <Container fluid='md' id="about">
-      <div className="uppr inset-0 bg-black/98 fixed z-99 text-white flex flex-col md:flex-row justify-center items-center *:px-2 font" style={{fontSize:'5rem'}}>
-        <div>HEMANT</div>
-        <div>MERN</div>
-        <div>STACK</div>
-      </div>
+    <main>
+      <Container fluid='md' id="about">
+        <div className="uppr inset-0 bg-black/98 fixed z-99 text-white flex flex-col md:flex-row justify-center items-center *:px-2 font" style={{ fontSize: '5rem' }}>
+          <div>HEMANT</div>
+          <div>MERN</div>
+          <div>STACK</div>
+        </div>
 
-      <Row ref={animRef} >
-        <Col sm={12} md={6} className="d-flex justify-content-center align-items-center ">
-          <div className="pt-5 px-5 z-10 ">
-            <img
-
-              src="../assets/profff.jpg"
-              className="img-fluid imgy max-h-87 rounded-full shadow border-gray border-3"
-              alt="image"
-              data-placeholder="../assets/profff_zitjjz.jpg"
-            />
-          </div>
-        </Col>
-        <Col sm={12} md={6} className=" p-3 d-flex justify-content-sm-start justify-content-center  align-items-end order-md-1 animate-about" style={{ flex: 1 }}>
-          <div className="texty" >
-            <h1 className="font" style={{ fontSize: '3rem' }}>I am <br /> Hemant Kumar</h1>
-            <h2 className="font" style={{ fontSize: '3rem' }}>Software Engineer</h2>
-            <hr />
-            <div>
-              <a href="https://github.com/hemant-devlop" target="_blank" className="btn  rounded-0"><i className="bi bi-github fs-1 me-2 "></i></a>
-              <a href="https://www.linkedin.com/in/hemantdevloper/" target="_blank" className="btn  rounded-0"><i className="bi bi-linkedin fs-1"></i></a>
-              <NavLink className="navbar-brand  order-lg-1 " to={'/resume'} >
-                <button aria-label="resume_button" className="btn btn-outline-dark rounded-0 font mx-2"> RESUME &nbsp;<i className="bi bi-download"></i></button>
-              </NavLink>
+        <Row ref={animRef} >
+          <Col sm={12} md={6} className="d-flex justify-content-center align-items-center ">
+            <div className="pt-5 px-5 z-10 ">
+              <img
+                src="../assets/profileImg.webp"
+                className="img-fluid imgy max-h-87 rounded-full shadow border-gray border-3"
+                alt="image"
+                data-placeholder="../assets/profileImg.webp"
+              />
             </div>
-          </div>
-        </Col>
-      </Row>
-      <hr />
-      <About />
-      <hr />
-      <Skills />
-      <hr />
-      <Projects />
-    </Container>
+          </Col>
+          <Col sm={12} md={6} className=" p-3 d-flex justify-content-sm-start justify-content-center  align-items-end order-md-1 animate-about" style={{ flex: 1 }}>
+            <div className="texty" >
+              <h1 className="font" style={{ fontSize: '3rem' }}>I am <br /> Hemant Kumar</h1>
+              <h2 className="font" style={{ fontSize: '3rem' }}>Software Engineer</h2>
+              <hr />
+              <div>
+                <a href="https://github.com/hemant-devlop" aria-label="link for github account" target="_blank" className="btn  rounded-0"><i className="bi bi-github fs-1 me-2 "></i></a>
+                <a href="https://www.linkedin.com/in/hemantdevloper/" aria-label="link for linked in account" target="_blank" className="btn  rounded-0"><i className="bi bi-linkedin fs-1"></i></a>
+                <ResumeBtn/>
+              </div>
+            </div>
+          </Col>
+        </Row>
+        <hr />
+        <About />
+        <hr />
+        <Skills />
+        <hr />
+        <Projects />
+      </Container>
+    </main>
   );
 };
 

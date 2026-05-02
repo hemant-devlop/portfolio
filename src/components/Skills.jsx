@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from 'react'
-import './skills.css'
 import { Icon } from '@iconify-icon/react/dist/iconify.js'
 import { Col } from 'react-bootstrap'
 import Marquee from 'react-fast-marquee'
@@ -14,15 +13,11 @@ const Skills = () => {
             { logoFile: 'logos:mongodb', id: 1, title: 'MongoDB' },
             { logoFile: 'logos:docker', id: 20 },
             { logoFile: 'logos:javascript', id: 8 },
-            { logoFile: 'logos:bootstrap', id: 9 },
-            { logoFile: 'logos:material-ui', id: 10 },
+            { logoFile: 'devicon:reactnative-wordmark', id: 22 },
+            { logoFile: 'devicon:motion', id: 23,title:'frammer motion' },
             { logoFile: 'logos:git', id: 11 },
-            { logoFile: 'logos:github', id: 12 },
             { logoFile: 'logos:react-router', id: 13 },
             { logoFile: 'logos:postman', id: 15 },
-            { logoFile: 'logos:netlify-icon', id: 16 },
-            { logoFile: 'logos:vercel-icon', id: 17 },
-            { logoFile: 'simple-icons:render', id: 18 },
             { logoFile: 'logos:tailwindcss-icon', id: 19 },
 
         ]
