@@ -8,8 +8,9 @@ const Projects = () => {
       {projects.map((p,id)=>
       <Col key={id} sm={6} className="mb-3 d-flex flex-column justify-content-between">
         <div className="d-lg-flex gap-3 mb-2">
-        <a href={p.project_web}>
-                    <img  src={p.project_img} alt="image" height={220} width={300} className="mx-auto d-block border border-info rounded-1"/>
+        <a href={p.project_web} aria-label={p.project_title}>
+            {/* 429+226 px ration  from imageresizer.com */}
+                    <img  src={p.project_img} alt="image" height={220} width={300} className="mx-auto d-block border border-info rounded"/>
 
         </a>
           <div className="">
@@ -18,8 +19,8 @@ const Projects = () => {
           </div>
         </div>
         <div className="d-flex gap-2">
-          <a href={p.project_web} target="_blank" type="button" className="btn btn-outline-dark flex-grow-1 font"> <i className="bi bi-globe align-middle fs-3"></i> server</a>
-          <a href={p.project_git} target="_blank" type="button" className="btn btn-outline-dark flex-grow-1 font "><i className="bi bi-github align-middle fs-3"></i> github</a>
+          <a href={p.project_web} aria-label="project_web" target="_blank" type="button" className="btn btn-outline-dark grow font"> <i className="bi bi-globe align-middle fs-3"></i> server</a>
+          <a href={p.project_git} aria-label={p.project_img} target="_blank" type="button" className="btn btn-outline-dark grow font "><i className="bi bi-github align-middle fs-3"></i> github</a>
         </div>
       </Col>
       )}

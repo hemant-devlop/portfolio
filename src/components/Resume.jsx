@@ -4,8 +4,8 @@ const Resume = () => {
   // https://drive.google.com/file/d/147ramDx9a-84fNPAIIIDUkVADhsGyG2t/view?usp=sharing
   return (
     <div className="mt-16 text-center">
-      <div className='pt-4'>
-        <a href={`https://drive.google.com/file/d/${googleDriveId}/view?usp=drivesdk`} className="border hover:bg-black/90 hover:text-white border-black/80 font px-4 py-2 rounded transition duration-700">Download</a>
+      <div className='pt-4 '>
+        <a href={`https://drive.google.com/file/d/${googleDriveId}/view?usp=drivesdk`} aria-label="resume downloading" className="  font px-4 py-2 rounded transition duration-700 bg-black text-white ">Download</a>
       </div>
       <div className='relative w-full h-full pt-[141.4286%] mx-auto pb-0 shadow-md mt-[1.6em] mb-[ 0.9em]'>
         <iframe loading="lazy" className='absolute w-full h-full top-0 left-0  p-0 m-0 '
