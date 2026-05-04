@@ -22,7 +22,7 @@ const Skills = () => {
 
         ]
         return (
-            <Col>
+            <Col id="skills">
                 <h2 className='font text-center py-3 text-decoration-underline '>My Skills</h2>
                 <Marquee speed={150}>
                   <div className='pb-4 flex'> {skillLogo.map(item =>

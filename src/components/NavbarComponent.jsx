@@ -56,7 +56,7 @@ const NavbarComponent = () => {
                 <NavLink
                   className="nav-link font"
                   aria-current="page"
-                  to="skills"
+                  to='/skills'
                   onClick={() => closeMobileMenu('#skills')}
                 >
                   SKILLS
@@ -66,7 +66,7 @@ const NavbarComponent = () => {
                 <NavLink
                   className="nav-link font"
                   aria-current="page"
-                  to="projects"
+                  to='/projects'
                   onClick={() => closeMobileMenu('#projects')}
                 >
                   PROJECTS
