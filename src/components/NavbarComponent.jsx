@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navcompo.css";
+import {motion} from 'motion/react'
 import { Link, NavLink } from "react-router-dom";
 import ResumeBtn from "./ResumeBtn";
 
@@ -56,7 +57,7 @@ const NavbarComponent = () => {
                 <NavLink
                   className="nav-link font"
                   aria-current="page"
-                  to="skills"
+                  to='/skills'
                   onClick={() => closeMobileMenu('#skills')}
                 >
                   SKILLS
@@ -66,7 +67,7 @@ const NavbarComponent = () => {
                 <NavLink
                   className="nav-link font"
                   aria-current="page"
-                  to="projects"
+                  to='/projects'
                   onClick={() => closeMobileMenu('#projects')}
                 >
                   PROJECTS
@@ -75,9 +76,9 @@ const NavbarComponent = () => {
             </ul>
           </div>
         </div>
-        <div>
+        <motion.div whileTap={{scale:0.98}}>
           <ResumeBtn />
-        </div>
+        </motion.div>
       </div>
     </nav>
   );

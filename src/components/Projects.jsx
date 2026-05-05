@@ -1,5 +1,6 @@
 import { Col, Row } from "react-bootstrap";
 import projects from '../components/projects.json';
+import {motion} from 'motion/react'
 const Projects = () => {
   return (
     <div className="container my-3" id="projects">
