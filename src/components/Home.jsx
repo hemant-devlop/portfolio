@@ -9,6 +9,7 @@ import { useRef } from "react";
 import ResumeBtn from "./ResumeBtn";
 import {motion,useAnimation} from 'motion/react'
 import { SvgGithub, SvgLinkedIn } from "./Svg/Svg";
+import ContactMe from "./ContactMe";
 const Home = ({onFinish}) => {
   const controls = useAnimation();
   const textControls = useAnimation();
@@ -100,7 +101,8 @@ const Home = ({onFinish}) => {
           <Skills />
           <hr />
           <Projects />
-
+          <hr/>
+          <ContactMe/>
         </div>
       </main>
     </>
