@@ -19,14 +19,14 @@
     
 }
 
-.overlay{
-    font-size: 5rem;
-    text-align: center;
-  
-}
-@media (min-width:1200px) {
     .overlay{
-        font-size: 16rem;
-        
+        font-size: 5rem;
+        text-align: center;
+    
     }
-}
+    @media (min-width:1200px) {
+        .overlay{
+            font-size: 16rem;
+            
+        }
+    }
