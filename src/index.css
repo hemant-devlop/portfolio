@@ -42,3 +42,20 @@ h1 {
   }
  
 }
+
+.profile-animate{
+    animation: prof 2s;
+    animation-delay: 2.5s;
+    position: relative;
+}
+@keyframes prof {
+    from{
+        translate: -10vw 0;
+        opacity: 20%;
+    }
+    to{
+        translate: 0 0;
+        opacity: 100%;
+    }
+    
+}

@@ -76,7 +76,7 @@ const Home = ({onFinish}) => {
               <div className="pt-4 px-5 z-10 ">
                 <img
                   src="../assets/profileImg.webp"
-                  className=" imgy max-h-87 rounded-full shadow border-gray border-3"
+                  className="profile-animate imgy max-h-87 rounded-full shadow border-gray border-3"
                   alt="image"
                   data-placeholder="../assets/profileImg.webp"
                 />
@@ -84,8 +84,8 @@ const Home = ({onFinish}) => {
             </div>
             <div className=" p-3 flex justify-center lg:justify-start items-end animate-about" style={{ flex: 1 }}>
               <div className="" >
-                <h1 className="font" style={{ fontSize: '5rem',lineHeight:'5rem' }}>I am <br /> Hemant Kumar</h1>
-                <h2 className="font" style={{ fontSize: '3rem' }}>Software Engineer</h2>
+                <h1 className="font profile-animate" style={{ fontSize: '5rem',lineHeight:'5rem' }}>I am <br /> Hemant Kumar</h1>
+                <h2 className="font profile-animate" style={{ fontSize: '3rem' }}>Software Engineer</h2>
                 <hr />
                 <div className="flex justify-center items-center ">
                   <a href="https://github.com/hemant-devlop" aria-label="link for github account" target="_blank" className="btn  rounded-0"><SvgGithub className='fill-[#212529]'/></a>
