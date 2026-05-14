@@ -1,7 +1,7 @@
 {
   "name": "hemant-portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "2.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -17,10 +17,9 @@
     "bootstrap": "^5.3.2",
     "bootstrap-icons": "^1.11.3",
     "motion": "^12.38.0",
-    "react": "^18.2.0",
+    "react": "^19.2.6",
     "react-bootstrap": "^2.10.4",
-    "react-dom": "^18.2.0",
-    "react-lazy-load-image-component": "^1.6.0",
+    "react-dom": "^19.2.6",
     "react-router-dom": "^6.21.3"
   },
   "devDependencies": {
