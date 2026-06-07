@@ -75,8 +75,8 @@ const Home = ({onFinish}) => {
             <div className="flex justify-center items-center">
               <div className="pt-4 px-5 z-10 ">
                 <img
-                  src="../assets/profileImg.webp"
-                  className="profile-animate imgy max-h-87 rounded-full shadow border-gray border-3"
+                  src="../assets/profileImg1.webp"
+                  className="profile-animate imgy max-h-87 rounded-full shadow border-[#212529] border-4"
                   alt="image"
                   data-placeholder="../assets/profileImg.webp"
                 />
