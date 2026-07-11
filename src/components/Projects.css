@@ -1,0 +1,45 @@
+.projects-carousel {
+  padding: 2rem 0;
+}
+
+.projects-carousel .carousel-item {
+  padding: 1rem 0;
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 1.75rem;
+  border-radius: 1rem;
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.08);
+}
+
+.project-image-link {
+  max-width: 420px;
+  width: 100%;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-height: 320px;
+}
+
+.project-content {
+  width: 100%;
+}
+
+.project-description {
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
+
+@media (max-width: 767.98px) {
+  .project-card {
+    padding: 1rem;
+  }
+
+  .project-content {
+    text-align: center;
+  }
+}
