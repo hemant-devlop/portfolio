@@ -26,7 +26,7 @@ const Home = ({onFinish}) => {
       await textControls.start({
         opacity: 1,
         y: 0,
-        transition: { duration: 0.8, ease: "easeOut" }
+        transition: { duration: 0.6, ease: "easeOut" }
       });
 
       // Step 3: hold (pause like GSAP delay)

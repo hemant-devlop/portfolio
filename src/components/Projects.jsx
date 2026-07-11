@@ -1,32 +1,60 @@
-import { Col, Row } from "react-bootstrap";
+import { Carousel } from "react-bootstrap";
 import projects from '../components/projects.json';
-import {motion} from 'motion/react'
+import { motion } from 'motion/react';
+import './Projects.css';
+
 const Projects = () => {
   return (
-    <div className="container my-3" id="projects">
-    <h2 className='font text-center py-3 text-decoration-underline ' id='skill'>My Projects</h2>
-      <Row>
-      {projects.map((p,id)=>
-      <Col key={id} sm={6} className="mb-3 d-flex flex-column justify-content-between">
-        <div className="d-lg-flex gap-3 mb-2">
-        <a href={p.project_web} aria-label={p.project_title}>
-            {/* 429+226 px ration  from imageresizer.com */}
-                    <img  src={p.project_img} alt="image" height={220} width={300} className="mx-auto d-block border border-info rounded"/>
+    <motion.div
+      initial={{ opacity: 0, y: 30 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6 }}
+      className="container my-3"
+      id="projects"
+    >
+      <h2 className='font text-center py-3 text-decoration-underline' id='skill'>My Projects</h2>
 
-        </a>
-          <div className="">
-            <h3 className="text-center mt-2 font">{p.project_title}</h3>
-            <p className=" max-w-100 text-justify">{p.project_description}</p>
-          </div>
-        </div>
-        <div className="d-flex gap-2">
-          <a href={p.project_web} aria-label="project_web" target="_blank" type="button" className="btn btn-outline-dark grow font"> <i className="bi bi-globe align-middle fs-3"></i> server</a>
-          <a href={p.project_git} aria-label={p.project_img} target="_blank" type="button" className="btn btn-outline-dark grow font "><i className="bi bi-github align-middle fs-3"></i> github</a>
-        </div>
-      </Col>
-      )}
-      </Row>
-    </div>
+      <Carousel variant="dark" interval={3000} pause="hover" className="projects-carousel py-4" fade>
+        {projects.map((p, id) => (
+          <Carousel.Item key={id} className="py-4">
+            <div className="project-card d-flex flex-column flex-lg-row align-items-center gap-4">
+              <a href={p.project_web} aria-label={p.project_title} target="_blank" rel="noreferrer" className="project-image-link">
+                <img
+                  src={p.project_img}
+                  alt={p.project_title}
+                  className="project-image rounded border border-info"
+                />
+              </a>
+
+              <div className="project-content text-center text-lg-start">
+                <h3 className="font mb-3">{p.project_title}</h3>
+                <p className="project-description">{p.project_description}</p>
+                <div className="d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start gap-2 mt-3">
+                  <a
+                    href={p.project_web}
+                    aria-label="project web"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn btn-outline-dark grow font"
+                  >
+                    <i className="bi bi-globe align-middle fs-3"></i> Live
+                  </a>
+                  <a
+                    href={p.project_git}
+                    aria-label="project github"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn btn-outline-dark grow font"
+                  >
+                    <i className="bi bi-github align-middle fs-3"></i> github
+                  </a>
+                </div>
+              </div>
+            </div>
+          </Carousel.Item>
+        ))}
+      </Carousel>
+    </motion.div>
   );
 };
 

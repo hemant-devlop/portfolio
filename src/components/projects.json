@@ -37,9 +37,9 @@
     "project_web":"https://github.com/hemant-devlop/instagram_clone"},
 
     { "project_img":"../assets/proj06.webp",
-    "project_title":"University website",
-    "project_description":"Developed using MERN Stack, Redux Toolkit, and Socket.IO for fast, interactive, and scalable social networking.",
+    "project_title":"Link shortme",
+    "project_description":"Developed using MERN Stack, nextjs, and mongoDb for fast, interactive, and scalable social networking.",
     "project_stack":"",
-    "project_git":"https://github.com/hemant-devlop",
-    "project_web":"https://github.com/hemant-devlop/redux-ecommerce-cart"}
+    "project_git":"https://github.com/hemant-devlop/shortme",
+    "project_web":"https://quickylink.netlify.app/"}
   ]
