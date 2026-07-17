@@ -17,7 +17,7 @@ const Projects = () => {
       <Carousel variant="dark" interval={3000} pause="hover" className="projects-carousel py-4" fade>
         {projects.map((p, id) => (
           <Carousel.Item key={id} className="py-4">
-            <div className="project-card d-flex flex-column flex-lg-row align-items-center gap-4">
+            <div className="project-card flex flex-col lg:flex-row items-center mx-auto gap-4">
               <a href={p.project_web} aria-label={p.project_title} target="_blank" rel="noreferrer" className="project-image-link">
                 <img
                   src={p.project_img}
@@ -29,7 +29,7 @@ const Projects = () => {
               <div className="project-content text-center text-lg-start">
                 <h3 className="font mb-3">{p.project_title}</h3>
                 <p className="project-description">{p.project_description}</p>
-                <div className="d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start gap-2 mt-3">
+                <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-2 mt-3">
                   <a
                     href={p.project_web}
                     aria-label="project web"
